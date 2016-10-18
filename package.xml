@@ -6,6 +6,9 @@
         <members>Test2</members>
         <members>Test3</members>
         <members>Test4</members>
+        <members>Test5</members>
+        <members>Test6</members>
+        <members>Test7</members>
         <name>ApexClass</name>
     </types>
     <types>
