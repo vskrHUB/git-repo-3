@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>30.0</version>
     <types>
         <members>Test1</members>
         <members>Test2</members>
         <members>Test3</members>
         <members>Test4</members>
+        <members>Test5</members>
+        <members>Test6</members>
+        <members>Test7</members>
+        <members>Test8</members>
+        <members>Test9</members>
         <name>ApexClass</name>
     </types>
     <types>
@@ -359,6 +365,27 @@
         <name>Role</name>
     </types>
     <types>
+        <members>Account</members>
+        <members>Activities</members>
+        <members>Address</members>
+        <members>BusinessHours</members>
+        <members>Case</members>
+        <members>Company</members>
+        <members>Contract</members>
+        <members>Entitlement</members>
+        <members>Forecasting</members>
+        <members>Ideas</members>
+        <members>Knowledge</members>
+        <members>LiveAgent</members>
+        <members>Mobile</members>
+        <members>Opportunity</members>
+        <members>Order</members>
+        <members>Product</members>
+        <members>Quote</members>
+        <members>Security</members>
+        <name>Settings</name>
+    </types>
+    <types>
         <members>Account.Billing</members>
         <members>Campaign.ViewCampaignInfluenceReport</members>
         <members>Case.UpsellCrosssellOpportunity</members>
@@ -402,26 +429,4 @@
         <members>UserProvisioningRequest</members>
         <name>Workflow</name>
     </types>
-    <types>
-        <members>Account</members>
-        <members>Activities</members>
-        <members>Address</members>
-        <members>BusinessHours</members>
-        <members>Case</members>
-        <members>Company</members>
-        <members>Contract</members>
-        <members>Entitlement</members>
-        <members>Forecasting</members>
-        <members>Ideas</members>
-        <members>Knowledge</members>
-        <members>LiveAgent</members>
-        <members>Mobile</members>
-        <members>Opportunity</members>
-        <members>Order</members>
-        <members>Product</members>
-        <members>Quote</members>
-        <members>Security</members>
-        <name>Settings</name>
-    </types>
-    <version>30.0</version>
 </Package>
