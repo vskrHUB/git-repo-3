@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>30.0</version>
+    <version>34.0</version>
     <types>
+        <members>A1</members>
         <members>Test1</members>
         <members>Test2</members>
         <members>Test3</members>
@@ -267,6 +268,10 @@
         <members>WorkFeedbackRequest.All</members>
         <members>WorkFeedbackTemplate.All</members>
         <name>ListView</name>
+    </types>
+    <types>
+        <members>Account.Standard_Account_Match_Rule_v1_0</members>
+        <name>MatchingRule</name>
     </types>
     <types>
         <members>Admin</members>
