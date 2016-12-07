@@ -10,6 +10,8 @@
         <members>Test5</members>
         <members>Test6</members>
         <members>Test7</members>
+        <members>Test8</members>
+        <members>Test9</members>
         <name>ApexClass</name>
     </types>
     <types>
@@ -272,6 +274,11 @@
     <types>
         <members>Account.Standard_Account_Match_Rule_v1_0</members>
         <name>MatchingRule</name>
+    </types>
+    <types>
+        <members>Contact</members>
+        <members>Lead</members>
+        <name>MatchingRules</name>
     </types>
     <types>
         <members>Admin</members>
