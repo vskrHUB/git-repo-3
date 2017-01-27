@@ -3,4 +3,6 @@
     <defaultLandingTab>standard-home</defaultLandingTab>
     <tab>standard-Chatter</tab>
     <tab>standard-Sites</tab>
+    <tab>AR_Obj1__c</tab>
+    <tab>Bag__c</tab>
 </CustomApplication>

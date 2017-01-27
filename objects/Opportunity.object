@@ -21,6 +21,10 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>List</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -50,10 +54,32 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Amount</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>AutorabitExtId__c</fullName>
+        <description>External Id created by AutoRABIT</description>
+        <externalId>true</externalId>
+        <label>AutorabitExtId__c</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>CampaignId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CloseDate</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
     </fields>
     <fields>
         <fullName>ContractId</fullName>
@@ -97,6 +123,20 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Description</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>ExpectedRevenue</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>IsPrivate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
         <fullName>LeadSource</fullName>
         <picklist>
             <picklistValues>
@@ -137,6 +177,16 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Name</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>NextStep</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
         <fullName>OrderNumber__c</fullName>
         <externalId>false</externalId>
         <label>Order Number</label>
@@ -154,9 +204,19 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>PartnerAccountId</fullName>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>Pricebook2Id</fullName>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Probability</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
     </fields>
     <fields>
         <fullName>StageName</fullName>
@@ -246,6 +306,11 @@
         <trackFeedHistory>true</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>TotalOpportunityQuantity</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
     </fields>
     <fields>
         <fullName>TrackingNumber__c</fullName>

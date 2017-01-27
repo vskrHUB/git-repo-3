@@ -29,6 +29,10 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>List</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -64,9 +68,16 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>AccountNumber</fullName>
+    </fields>
+    <fields>
         <fullName>ActivatedById</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ActivatedDate</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>BillToContactId</fullName>
@@ -74,9 +85,20 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>BillingAddress</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
         <fullName>CompanyAuthorizedById</fullName>
         <trackHistory>true</trackHistory>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CompanyAuthorizedDate</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ContractEndDate</fullName>
     </fields>
     <fields>
         <fullName>ContractId</fullName>
@@ -84,14 +106,44 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>ContractName</fullName>
+    </fields>
+    <fields>
         <fullName>CustomerAuthorizedById</fullName>
         <trackHistory>true</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>CustomerAuthorizedDate</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>EffectiveDate</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>EndDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsReductionOrder</fullName>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
         <fullName>OpportunityId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OrderReferenceNumber</fullName>
+        <trackHistory>true</trackHistory>
     </fields>
     <fields>
         <fullName>OriginalOrderId</fullName>
@@ -103,9 +155,24 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>PoDate</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>PoNumber</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
         <fullName>ShipToContactId</fullName>
         <trackHistory>true</trackHistory>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ShippingAddress</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalAmount</fullName>
     </fields>
     <fields>
         <fullName>Type</fullName>

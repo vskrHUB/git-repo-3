@@ -2,4 +2,6 @@
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <defaultLandingTab>standard-home</defaultLandingTab>
     <tab>standard-AppLauncher</tab>
+    <tab>AR_Obj1__c</tab>
+    <tab>Bag__c</tab>
 </CustomApplication>
