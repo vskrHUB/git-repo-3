@@ -251,25 +251,29 @@
         <description>QA</description>
         <externalId>false</externalId>
         <label>ECP-Field5</label>
-        <picklist>
-            <picklistValues>
-                <fullName>GOOD</fullName>
-                <default>true</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>BAD</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>WORSE</fullName>
-                <default>false</default>
-            </picklistValues>
-            <restrictedPicklist>true</restrictedPicklist>
-            <sorted>false</sorted>
-        </picklist>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>GOOD</fullName>
+                    <default>true</default>
+                    <label>GOOD</label>
+                </value>
+                <value>
+                    <fullName>BAD</fullName>
+                    <default>false</default>
+                    <label>BAD</label>
+                </value>
+                <value>
+                    <fullName>WORSE</fullName>
+                    <default>false</default>
+                    <label>WORSE</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>EC_Field1__c</fullName>
