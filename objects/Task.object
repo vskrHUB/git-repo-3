@@ -21,10 +21,6 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>Follow</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
         <actionName>NewTask</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -60,7 +56,7 @@
         <fullName>Email</fullName>
     </fields>
     <fields>
-        <fullName>IsVisibleInSelfService</fullName>
+        <fullName>IsRecurrence</fullName>
     </fields>
     <fields>
         <fullName>OwnerId</fullName>
@@ -72,26 +68,6 @@
     <fields>
         <fullName>Priority</fullName>
         <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>High</fullName>
-                    <default>false</default>
-                    <label>High</label>
-                </value>
-                <value>
-                    <fullName>Normal</fullName>
-                    <default>true</default>
-                    <label>Normal</label>
-                </value>
-                <value>
-                    <fullName>Low</fullName>
-                    <default>false</default>
-                    <label>Low</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
     </fields>
     <fields>
         <fullName>RecurrenceInterval</fullName>
@@ -102,70 +78,10 @@
     <fields>
         <fullName>Status</fullName>
         <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Not Started</fullName>
-                    <default>true</default>
-                    <label>Not Started</label>
-                </value>
-                <value>
-                    <fullName>In Progress</fullName>
-                    <default>false</default>
-                    <label>In Progress</label>
-                </value>
-                <value>
-                    <fullName>Completed</fullName>
-                    <default>false</default>
-                    <label>Completed</label>
-                </value>
-                <value>
-                    <fullName>Waiting on someone else</fullName>
-                    <default>false</default>
-                    <label>Waiting on someone else</label>
-                </value>
-                <value>
-                    <fullName>Deferred</fullName>
-                    <default>false</default>
-                    <label>Deferred</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
     </fields>
     <fields>
         <fullName>Subject</fullName>
         <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Call</fullName>
-                    <default>false</default>
-                    <label>Call</label>
-                </value>
-                <value>
-                    <fullName>Email</fullName>
-                    <default>false</default>
-                    <label>Email</label>
-                </value>
-                <value>
-                    <fullName>Send Letter</fullName>
-                    <default>false</default>
-                    <label>Send Letter</label>
-                </value>
-                <value>
-                    <fullName>Send Quote</fullName>
-                    <default>false</default>
-                    <label>Send Quote</label>
-                </value>
-                <value>
-                    <fullName>Other</fullName>
-                    <default>false</default>
-                    <label>Other</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
     </fields>
     <fields>
         <fullName>TaskSubtype</fullName>
@@ -173,31 +89,6 @@
     <fields>
         <fullName>Type</fullName>
         <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Call</fullName>
-                    <default>false</default>
-                    <label>Call</label>
-                </value>
-                <value>
-                    <fullName>Meeting</fullName>
-                    <default>false</default>
-                    <label>Meeting</label>
-                </value>
-                <value>
-                    <fullName>Other</fullName>
-                    <default>false</default>
-                    <label>Other</label>
-                </value>
-                <value>
-                    <fullName>Email</fullName>
-                    <default>false</default>
-                    <label>Email</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
     </fields>
     <fields>
         <fullName>WhatId</fullName>

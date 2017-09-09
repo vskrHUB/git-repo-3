@@ -21,10 +21,6 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>Follow</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
         <actionName>List</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -57,18 +53,6 @@
         <fullName>Amount</fullName>
         <trackFeedHistory>true</trackFeedHistory>
         <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>AutorabitExtId__c</fullName>
-        <description>External Id created by AutoRABIT</description>
-        <externalId>true</externalId>
-        <label>AutorabitExtId__c</label>
-        <length>18</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
     </fields>
     <fields>
         <fullName>CampaignId</fullName>
@@ -146,36 +130,6 @@
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Web</fullName>
-                    <default>false</default>
-                    <label>Web</label>
-                </value>
-                <value>
-                    <fullName>Phone Inquiry</fullName>
-                    <default>false</default>
-                    <label>Phone Inquiry</label>
-                </value>
-                <value>
-                    <fullName>Partner Referral</fullName>
-                    <default>false</default>
-                    <label>Partner Referral</label>
-                </value>
-                <value>
-                    <fullName>Purchased List</fullName>
-                    <default>false</default>
-                    <label>Purchased List</label>
-                </value>
-                <value>
-                    <fullName>Other</fullName>
-                    <default>false</default>
-                    <label>Other</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
     </fields>
     <fields>
         <fullName>MainCompetitors__c</fullName>
@@ -216,11 +170,6 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>PartnerAccountId</fullName>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>Pricebook2Id</fullName>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
@@ -235,61 +184,6 @@
         <trackFeedHistory>true</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Prospecting</fullName>
-                    <default>false</default>
-                    <label>Prospecting</label>
-                </value>
-                <value>
-                    <fullName>Qualification</fullName>
-                    <default>false</default>
-                    <label>Qualification</label>
-                </value>
-                <value>
-                    <fullName>Needs Analysis</fullName>
-                    <default>false</default>
-                    <label>Needs Analysis</label>
-                </value>
-                <value>
-                    <fullName>Value Proposition</fullName>
-                    <default>false</default>
-                    <label>Value Proposition</label>
-                </value>
-                <value>
-                    <fullName>Id. Decision Makers</fullName>
-                    <default>false</default>
-                    <label>Id. Decision Makers</label>
-                </value>
-                <value>
-                    <fullName>Perception Analysis</fullName>
-                    <default>false</default>
-                    <label>Perception Analysis</label>
-                </value>
-                <value>
-                    <fullName>Proposal/Price Quote</fullName>
-                    <default>false</default>
-                    <label>Proposal/Price Quote</label>
-                </value>
-                <value>
-                    <fullName>Negotiation/Review</fullName>
-                    <default>false</default>
-                    <label>Negotiation/Review</label>
-                </value>
-                <value>
-                    <fullName>Closed Won</fullName>
-                    <default>false</default>
-                    <label>Closed Won</label>
-                </value>
-                <value>
-                    <fullName>Closed Lost</fullName>
-                    <default>false</default>
-                    <label>Closed Lost</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
     </fields>
     <fields>
         <fullName>TotalOpportunityQuantity</fullName>
@@ -312,31 +206,6 @@
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Existing Customer - Upgrade</fullName>
-                    <default>false</default>
-                    <label>Existing Customer - Upgrade</label>
-                </value>
-                <value>
-                    <fullName>Existing Customer - Replacement</fullName>
-                    <default>false</default>
-                    <label>Existing Customer - Replacement</label>
-                </value>
-                <value>
-                    <fullName>Existing Customer - Downgrade</fullName>
-                    <default>false</default>
-                    <label>Existing Customer - Downgrade</label>
-                </value>
-                <value>
-                    <fullName>New Customer</fullName>
-                    <default>false</default>
-                    <label>New Customer</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
     </fields>
     <listViews>
         <fullName>AllOpportunities</fullName>

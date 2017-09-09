@@ -45,6 +45,7 @@
         <rightComponents>
             <componentType>CustomButtons</componentType>
         </rightComponents>
+        <useInlineFiltersInConsole>false</useInlineFiltersInConsole>
     </feedLayout>
     <headers>PersonalTagging</headers>
     <headers>PublicTagging</headers>
@@ -224,9 +225,6 @@
         </quickActionListItems>
         <quickActionListItems>
             <quickActionName>Case.LogACall</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
-            <quickActionName>Case.CaseComment</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
             <quickActionName>Case.ChangeStatus</quickActionName>

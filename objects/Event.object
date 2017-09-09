@@ -29,10 +29,6 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>Follow</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
         <actionName>NewEvent</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -82,9 +78,6 @@
         <fullName>IsPrivate</fullName>
     </fields>
     <fields>
-        <fullName>IsVisibleInSelfService</fullName>
-    </fields>
-    <fields>
         <fullName>Location</fullName>
     </fields>
     <fields>
@@ -103,65 +96,10 @@
     <fields>
         <fullName>Subject</fullName>
         <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Call</fullName>
-                    <default>false</default>
-                    <label>Call</label>
-                </value>
-                <value>
-                    <fullName>Email</fullName>
-                    <default>false</default>
-                    <label>Email</label>
-                </value>
-                <value>
-                    <fullName>Meeting</fullName>
-                    <default>false</default>
-                    <label>Meeting</label>
-                </value>
-                <value>
-                    <fullName>Send Letter/Quote</fullName>
-                    <default>false</default>
-                    <label>Send Letter/Quote</label>
-                </value>
-                <value>
-                    <fullName>Other</fullName>
-                    <default>false</default>
-                    <label>Other</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
     </fields>
     <fields>
         <fullName>Type</fullName>
         <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Email</fullName>
-                    <default>false</default>
-                    <label>Email</label>
-                </value>
-                <value>
-                    <fullName>Meeting</fullName>
-                    <default>false</default>
-                    <label>Meeting</label>
-                </value>
-                <value>
-                    <fullName>Other</fullName>
-                    <default>false</default>
-                    <label>Other</label>
-                </value>
-                <value>
-                    <fullName>Call</fullName>
-                    <default>false</default>
-                    <label>Call</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
     </fields>
     <fields>
         <fullName>WhatId</fullName>

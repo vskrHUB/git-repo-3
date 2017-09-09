@@ -17,10 +17,6 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>Follow</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
         <actionName>New</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -40,6 +36,20 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>AssetLevel</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>AssetProvidedById</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AssetServicedById</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>ContactId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
@@ -54,6 +64,10 @@
     </fields>
     <fields>
         <fullName>IsCompetitorProduct</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsInternal</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -88,16 +102,6 @@
     <fields>
         <fullName>ProductFamily</fullName>
         <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>None</fullName>
-                    <default>false</default>
-                    <label>None</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
     </fields>
     <fields>
         <fullName>PurchaseDate</fullName>
@@ -120,36 +124,6 @@
         <fullName>Status</fullName>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Shipped</fullName>
-                    <default>false</default>
-                    <label>Shipped</label>
-                </value>
-                <value>
-                    <fullName>Installed</fullName>
-                    <default>false</default>
-                    <label>Installed</label>
-                </value>
-                <value>
-                    <fullName>Registered</fullName>
-                    <default>false</default>
-                    <label>Registered</label>
-                </value>
-                <value>
-                    <fullName>Obsolete</fullName>
-                    <default>false</default>
-                    <label>Obsolete</label>
-                </value>
-                <value>
-                    <fullName>Purchased</fullName>
-                    <default>false</default>
-                    <label>Purchased</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
     </fields>
     <fields>
         <fullName>UsageEndDate</fullName>

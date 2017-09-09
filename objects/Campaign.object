@@ -25,10 +25,6 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>Follow</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
         <actionName>List</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -50,6 +46,7 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
     <fields>
         <fullName>ActualCost</fullName>
     </fields>
@@ -155,100 +152,10 @@
     <fields>
         <fullName>Status</fullName>
         <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Planned</fullName>
-                    <default>true</default>
-                    <label>Planned</label>
-                </value>
-                <value>
-                    <fullName>In Progress</fullName>
-                    <default>false</default>
-                    <label>In Progress</label>
-                </value>
-                <value>
-                    <fullName>Completed</fullName>
-                    <default>false</default>
-                    <label>Completed</label>
-                </value>
-                <value>
-                    <fullName>Aborted</fullName>
-                    <default>false</default>
-                    <label>Aborted</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
     </fields>
     <fields>
         <fullName>Type</fullName>
         <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Conference</fullName>
-                    <default>true</default>
-                    <label>Conference</label>
-                </value>
-                <value>
-                    <fullName>Webinar</fullName>
-                    <default>false</default>
-                    <label>Webinar</label>
-                </value>
-                <value>
-                    <fullName>Trade Show</fullName>
-                    <default>false</default>
-                    <label>Trade Show</label>
-                </value>
-                <value>
-                    <fullName>Public Relations</fullName>
-                    <default>false</default>
-                    <label>Public Relations</label>
-                </value>
-                <value>
-                    <fullName>Partners</fullName>
-                    <default>false</default>
-                    <label>Partners</label>
-                </value>
-                <value>
-                    <fullName>Referral Program</fullName>
-                    <default>false</default>
-                    <label>Referral Program</label>
-                </value>
-                <value>
-                    <fullName>Advertisement</fullName>
-                    <default>false</default>
-                    <label>Advertisement</label>
-                </value>
-                <value>
-                    <fullName>Banner Ads</fullName>
-                    <default>false</default>
-                    <label>Banner Ads</label>
-                </value>
-                <value>
-                    <fullName>Direct Mail</fullName>
-                    <default>false</default>
-                    <label>Direct Mail</label>
-                </value>
-                <value>
-                    <fullName>Email</fullName>
-                    <default>false</default>
-                    <label>Email</label>
-                </value>
-                <value>
-                    <fullName>Telemarketing</fullName>
-                    <default>false</default>
-                    <label>Telemarketing</label>
-                </value>
-                <value>
-                    <fullName>Other</fullName>
-                    <default>false</default>
-                    <label>Other</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
     </fields>
     <listViews>
         <fullName>AllActiveCampaigns</fullName>
