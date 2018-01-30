@@ -92,19 +92,70 @@
     <fields>
         <fullName>LeadSource</fullName>
         <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>MobilePhone</fullName>
-    </fields>
-    <fields>
-        <fullName>Phone</fullName>
-    </fields>
-    <fields>
-        <fullName>PostalCode</fullName>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Web</fullName>
+                    <default>false</default>
+                    <label>Web</label>
+                </value>
+                <value>
+                    <fullName>Phone Inquiry</fullName>
+                    <default>false</default>
+                    <label>Phone Inquiry</label>
+                </value>
+                <value>
+                    <fullName>Partner Referral</fullName>
+                    <default>false</default>
+                    <label>Partner Referral</label>
+                </value>
+                <value>
+                    <fullName>Purchased List</fullName>
+                    <default>false</default>
+                    <label>Purchased List</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>Salutation</fullName>
         <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Mr.</fullName>
+                    <default>false</default>
+                    <label>Mr.</label>
+                </value>
+                <value>
+                    <fullName>Ms.</fullName>
+                    <default>false</default>
+                    <label>Ms.</label>
+                </value>
+                <value>
+                    <fullName>Mrs.</fullName>
+                    <default>false</default>
+                    <label>Mrs.</label>
+                </value>
+                <value>
+                    <fullName>Dr.</fullName>
+                    <default>false</default>
+                    <label>Dr.</label>
+                </value>
+                <value>
+                    <fullName>Prof.</fullName>
+                    <default>false</default>
+                    <label>Prof.</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>State</fullName>
@@ -112,6 +163,31 @@
     <fields>
         <fullName>Status</fullName>
         <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Planned</fullName>
+                    <default>false</default>
+                    <label>Planned</label>
+                </value>
+                <value>
+                    <fullName>Received</fullName>
+                    <default>false</default>
+                    <label>Received</label>
+                </value>
+                <value>
+                    <fullName>Responded</fullName>
+                    <default>false</default>
+                    <label>Responded</label>
+                </value>
+                <value>
+                    <fullName>Sent</fullName>
+                    <default>false</default>
+                    <label>Sent</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>Street</fullName>

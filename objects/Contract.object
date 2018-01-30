@@ -136,6 +136,26 @@
         <fullName>Status</fullName>
         <trackHistory>true</trackHistory>
         <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>In Approval Process</fullName>
+                    <default>false</default>
+                    <label>In Approval Process</label>
+                </value>
+                <value>
+                    <fullName>Activated</fullName>
+                    <default>false</default>
+                    <label>Activated</label>
+                </value>
+                <value>
+                    <fullName>Draft</fullName>
+                    <default>false</default>
+                    <label>Draft</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <listViews>
         <fullName>AllActivatedContracts</fullName>
